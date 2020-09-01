@@ -1,0 +1,86 @@
+{
+    "projects": [
+      {
+        "id": 0,
+        "project_name": "Random Quote Generaor",
+        "description": "An App that displays random quotes each time when a button is clicked.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "live_demo": "https://vickic.github.io/random-quote-generator",
+        "github_link": "https://github.com/DeniseB52/Techdegree_Project_Unit1",
+        "image_urls": [ 
+            "p-1.jpg",
+            "p-1_2.jpg"
+        ]
+      },
+      {
+        "id": 1,
+        "project_name": "List Filter and Pagination",
+        "description": "Starting with a page that contains a list of 54 student names, photos and email addresses; my code to displays 10 names at a time, and adds a navigation system to let users click through the other student entries, 10 at a time.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "live_demo": "https://list-filter-pagination.netlify.com/",
+        "github_link": "https://github.com/DeniseB52/Techdegree_Project_Unit2",
+        "image_urls": [ 
+            "p-2.jpg",
+            "p-2_2.jpg"
+      ]
+      },
+      {
+        "id": 2,
+        "project_name": "Interactive Form",
+        "description": "Adding customized and conditional behavior and interactivity Validating user input and providing helpful error messages when the user enters invalid information into the form fields.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "live_demo": "https://in-form.netlify.com/",
+        "github_link": "https://github.com/DeniseB52/Techdegree_Project_Unit3",
+        "image_urls": [ 
+            "p-3.jpg",
+            "p-3_2.jpg"
+      ]
+      },
+      {
+        "id": 3,
+        "project_name": "OOP Game Show App",
+        "description": "A browser-based, word guessing game app",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "live_demo": "https://phrasehuntergame.netlify.com/",
+        "github_link": "https://github.com/DeniseB52/Techdegree_Project_Unit4",
+        "image_urls": [ 
+            "p-4.jpg",
+            "p-4_2.jpg"
+      ]
+      },
+      {
+        "id": 4,
+        "project_name": "PUBLIC API REQUESTS",
+        "description": "Employee directory",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "JSON",
+          "API"
+        ],
+        "live_demo": "https://awesome-employee.netlify.com",
+        "github_link": "https://github.com/DeniseB52/Techdegree_Project_Unit5",
+        "image_urls": [ 
+            "p-5.jpg",
+            "p-5_2.jpg"
+      ]
+      }
+    ]
+}
