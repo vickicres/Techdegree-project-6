@@ -9,8 +9,8 @@
           "CSS",
           "JavaScript"
         ],
-        "live_demo": "https://vickic.github.io/random-quote-generator",
-        "github_link": "https://github.com/DeniseB52/Techdegree_Project_Unit1",
+        "live_demo": "https://vickicres.github.io/Techdegree-project-1/",
+        "github_link": "https://github.com/vickicres/Techdegree-project-1",
         "image_urls": [ 
             "p-1.jpg",
             "p-1_2.jpg"
@@ -19,14 +19,14 @@
       {
         "id": 1,
         "project_name": "List Filter and Pagination",
-        "description": "Starting with a page that contains a list of 54 student names, photos and email addresses; my code to displays 10 names at a time, and adds a navigation system to let users click through the other student entries, 10 at a time.",
+        "description": "A page that contains a list of 54 student names, photos and email addresses. Inside of each page will have to displays 10 names at a time, and adds a navigation system to let users click through the other student entries, 10 at a time.",
         "technologies": [
           "HTML",
           "CSS",
           "JavaScript"
         ],
-        "live_demo": "https://list-filter-pagination.netlify.com/",
-        "github_link": "https://github.com/DeniseB52/Techdegree_Project_Unit2",
+        "live_demo": "https://vickicres.github.io/Techdegree-Porject-2/",
+        "github_link": "https://github.com/vickicres/Techdegree-Porject-2",
         "image_urls": [ 
             "p-2.jpg",
             "p-2_2.jpg"
@@ -35,14 +35,14 @@
       {
         "id": 2,
         "project_name": "Interactive Form",
-        "description": "Adding customized and conditional behavior and interactivity Validating user input and providing helpful error messages when the user enters invalid information into the form fields.",
+        "description": "An user-friendly interactive registration form for a fictional conference.",
         "technologies": [
           "HTML",
           "CSS",
           "JavaScript"
         ],
-        "live_demo": "https://in-form.netlify.com/",
-        "github_link": "https://github.com/DeniseB52/Techdegree_Project_Unit3",
+        "live_demo": "https://vickicres.github.io/Techdegree-project-3/",
+        "github_link": "https://github.com/vickicres/Techdegree-project-3",
         "image_urls": [ 
             "p-3.jpg",
             "p-3_2.jpg"
@@ -51,14 +51,14 @@
       {
         "id": 3,
         "project_name": "OOP Game Show App",
-        "description": "A browser-based, word guessing game app",
+        "description": "A browser-based, word guessing game app - select a random, hidden phrase, which a player tries to guess, by clicking letters to guessing the phrase on an onscreen keyboard until they win or lose.",
         "technologies": [
           "HTML",
           "CSS",
           "JavaScript"
         ],
-        "live_demo": "https://phrasehuntergame.netlify.com/",
-        "github_link": "https://github.com/DeniseB52/Techdegree_Project_Unit4",
+        "live_demo": "https://vickicres.github.io/Techdegree-project-4/",
+        "github_link": "https://github.com/vickicres/Techdegree-project-4",
         "image_urls": [ 
             "p-4.jpg",
             "p-4_2.jpg"
@@ -67,7 +67,7 @@
       {
         "id": 4,
         "project_name": "PUBLIC API REQUESTS",
-        "description": "Employee directory",
+        "description": "An app for a fictional company called Awesome Startup to use that data to build a prototype for an Awesome employee directory.",
         "technologies": [
           "HTML",
           "CSS",
@@ -75,8 +75,8 @@
           "JSON",
           "API"
         ],
-        "live_demo": "https://awesome-employee.netlify.com",
-        "github_link": "https://github.com/DeniseB52/Techdegree_Project_Unit5",
+        "live_demo": "https://vickicres.github.io/Techdegree-project-5/",
+        "github_link": "https://github.com/vickicres/Techdegree-project-5",
         "image_urls": [ 
             "p-5.jpg",
             "p-5_2.jpg"
