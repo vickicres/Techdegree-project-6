@@ -1,17 +1,15 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const app = express();
 
-app.use(bodyParser.urlencoded({ extend: false }));
+//connect to JSON data and store the projects info
+const data = require('./data.json');
+const projects = data.projects;
 
+//load the static files from public folder
 app.use('/static', express.static('public'));
 
 //set view engine to pug
 app.set('view engine', 'pug');
-
-const projectRoutes = require('./routes/projects');
-
-app.use(projectRoutes);
 
 //Render home page
 app.get('/', (req, res) => {
@@ -21,6 +19,20 @@ app.get('/', (req, res) => {
 //Render about page
 app.get('/about', (req, res) => {
     res.render('about');
+});
+
+
+//setting project route
+app.get('/projects/:id', (req, res) => {
+    //access to id parameters
+    const id = req.params.id;
+    const project = projects[id];
+
+    if(!id || id > project.length) {
+        return res.redirect('/');
+    }
+    res.render('project', { project });
+
 });
 
 //create error page
@@ -39,5 +51,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(3000, () => {
-   console.log('This application is running on localhost:3000!');
-});
+    console.log('This application is running on localhost:3000!');
+ });

@@ -12,8 +12,8 @@
         "live_demo": "https://vickicres.github.io/Techdegree-project-1/",
         "github_link": "https://github.com/vickicres/Techdegree-project-1",
         "image_urls": [ 
-            "p-1.jpg",
-            "p-1_2.jpg"
+            "/static/images/project-1-550.jpg",
+            "/static/images/project-1_2.jpg"
         ]
       },
       {
@@ -28,8 +28,8 @@
         "live_demo": "https://vickicres.github.io/Techdegree-Porject-2/",
         "github_link": "https://github.com/vickicres/Techdegree-Porject-2",
         "image_urls": [ 
-            "p-2.jpg",
-            "p-2_2.jpg"
+            "/static/images/project-2-550.jpg",
+            "/static/images/project-2_2.jpg"
       ]
       },
       {
@@ -44,8 +44,8 @@
         "live_demo": "https://vickicres.github.io/Techdegree-project-3/",
         "github_link": "https://github.com/vickicres/Techdegree-project-3",
         "image_urls": [ 
-            "p-3.jpg",
-            "p-3_2.jpg"
+            "/static/images/project-3-550.jpg",
+            "/static/images/project-3_2.jpg"
       ]
       },
       {
@@ -60,8 +60,8 @@
         "live_demo": "https://vickicres.github.io/Techdegree-project-4/",
         "github_link": "https://github.com/vickicres/Techdegree-project-4",
         "image_urls": [ 
-            "p-4.jpg",
-            "p-4_2.jpg"
+            "/static/images/project-4-550.jpg",
+            "/static/images/project-4_2.jpg"
       ]
       },
       {
@@ -78,8 +78,8 @@
         "live_demo": "https://vickicres.github.io/Techdegree-project-5/",
         "github_link": "https://github.com/vickicres/Techdegree-project-5",
         "image_urls": [ 
-            "p-5.jpg",
-            "p-5_2.jpg"
+            "/static/images/project-5-550.jpg",
+            "/static/images/project-5_2.jpg"
       ]
       }
     ]
