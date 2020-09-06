@@ -1,3 +1,13 @@
 extends layout.pug
 
 block content 
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← Click here to go back
+    center
+        h1 OOps!! Something went wrong, please go back to the main page.
+        br
+        h2= error.message
+        br
+        h2= error.status
+    br
+    pre= error.stack

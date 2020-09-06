@@ -114,6 +114,11 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+    border-color: 1px solid #D186A0;
+  }
+
+  .thumbnail:hover{
+    border: 4px solid #D186A0;
   }
 
   .portfolio-index a{
@@ -126,6 +131,11 @@ a:hover{
 
     .portfolio-index .cell h5{
       letter-spacing: 1px;
+      text-align: center;
+    }
+
+    .portfolio-index .cell h5:hover{
+      color: #D186A0;
     }
 
 .portfolio-meta{
