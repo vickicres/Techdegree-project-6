@@ -14,6 +14,7 @@ app.use(routes);
 
 //create error page
 app.use((req, res, next) => {
+    console.log('Going to the wrong way!')
     const err = new Error('Page Not Found');
     err.status = 404;
     next(err);

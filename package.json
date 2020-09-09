@@ -4,13 +4,13 @@
   "description": "create a portfolio site using server-side javascript",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vickicres/Techdegree-project-6.git"
   },
-  "author": "",
+  "author": "Vicki",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vickicres/Techdegree-project-6/issues"

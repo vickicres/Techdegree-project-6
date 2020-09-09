@@ -1,16 +1,26 @@
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'Comic Sans MS';
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Comic Sans MS', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
   }
 
+  .auto h5 {
+    font-size: 30px;
+  }
+
   h6{
+    font-size: 18px;
+    font-family: 'Comic Sans MS';
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -18,8 +28,9 @@ h1,h2,h3,h4,h5,p{
   }
 
   p{
-    font-size: 15px;
+    font-size: 23px;
     color: #666;
+    font-family: 'Comic Sans MS';
   }
 
 .round{
@@ -27,7 +38,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: rgb(31, 31, 31);
 }
 
 .button{
@@ -56,20 +67,25 @@ a:hover{
   line-height: 0;
 }
 
+.shrink img:hover{
+  border: none;
+}
+
 .portfolio-me{
   padding: 20px;
-  background: #121213;
-  color: #fff;
+  background: linear-gradient(344deg, rgba(238,174,202,1) 27%, rgba(148,187,233,1) 92%);
+  color: rgb(31, 3, 3);
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: #000;
   }
 
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+    font-family: 'Comic Sans MS';
     font-weight: 600;
     color: #555;
     font-size: 13px;
@@ -79,7 +95,7 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: #fff;
   }
 
 .portfolio-breadcrumb{
@@ -89,12 +105,17 @@ a:hover{
 }
 
  .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   /* font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+   font-family: 'Comic Sans MS';
    font-weight: 600;
    font-size: 13px;
    letter-spacing: 2.5px;
    -webkit-text-transform: uppercase;
    text-transform: uppercase;
+ }
+
+ .portfolio-breadcrumb a:hover {
+   color: #B9A6E0;
  }
 
 .portfolio-intro{
@@ -114,11 +135,12 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
-    border-color: 1px solid #D186A0;
+    border-color: 1px solid #B9A6E0;
   }
 
   .thumbnail:hover{
-    border: 4px solid #D186A0;
+    padding: 5px;
+    border: 4px dotted #B9A6E0;
   }
 
   .portfolio-index a{
@@ -135,7 +157,7 @@ a:hover{
     }
 
     .portfolio-index .cell h5:hover{
-      color: #D186A0;
+      color: #B9A6E0;
     }
 
 .portfolio-meta{
@@ -143,7 +165,12 @@ a:hover{
 }
 
   .portfolio-meta .button{
+    font-family: 'Comic Sans MS';
     margin-bottom: 5px;
+  }
+
+  .portfolio-meta .button:hover {
+    background-color: #B9A6E0;
   }
 
 .portfolio-project p{
@@ -151,7 +178,8 @@ a:hover{
 }
 
 .portfolio-project li{
-  font-size: 13px;
+  font-family: 'Comic Sans MS';
+  font-size: 16px;
   color: #444;
 }
 
